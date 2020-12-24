@@ -1,0 +1,12 @@
+## Executive Summary
+ 
+The cleaned dataset had descriptive statistics of every fatal encounter in the United States from 2000 to 2020. The project aimed to predict the race of the person involved in the fatal encounter with police using the more than 27,000 data points in the dataset. Our theory was that if we could predict race, our organization would be able to pinpoint whether or not race played a significant role in the deaths of these individuals. Initial observations proved to be very insightful, as we found descriptive statistics of the average person killed by police in this time period was a 25 year old male. Looking further into race, we found that a KNearest Neighbors model was the most effective in predicting race, with an accuracy score of 43.98% (compared with the baseline of 34.6%). Some interesting findings in our model included:
+1. A very low number of minorities were misclassified.
+2. Most misclassifications were classified as white.
+3. All minorities have a higher representation than census demographics. 
+
+At Equality and through our work with local police departments, our goal is to reduce the number of racially biased fatalities. Systemic racism is a major problem in our country, and unless it is confronted head on, we will never be able to move forward as a country. Strictly from an analysis standpoint, 23% of the total police deaths were African-American, yet African-Americans make up just 13% of the population. Our model used geographical data to predict race at a nationwide level, and in doing so, could show where biases are strongest at the state level.
+While we are proud of our models predictive power, our next steps would be to narrow in on the areas we found to be most problematic. Working with police departments in these areas, we could educate law enforcement about racial bias, and look to limit the number of racially biased fatalities at the hands of the police. 
+
+Some graphics from the analysis and modeling:
+
