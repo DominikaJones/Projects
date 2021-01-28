@@ -1,0 +1,13 @@
+Problem Statement
+
+The Steam platformis currently the largest PC game online distributor in the world, and has accumulated a vast amount of player and game data.
+The purpose of this project is to use regression models to predict the average total play time of based on the information about the game that is available on Steam. Customer engagement is a measurement of a user's response to the product. By prediciting STEAM video games and user engagement with a predicitive model, I hope to improve user experience and customer engagement to contribute to the success of video games on STEAM. 
+
+Data 
+
+Data was acquired using Steam Web and SteamSpy API. Steam Web has public access to player and game data and SteamSpy is a third party site that aggregates statistics on Steam Games. While acquiring the data, I stumbled on some potential issues. The distribution of playtimes was very skewed and looking more into it, the data gaps were most likely affected by private account settings by many users. If a user chose the privacy settings, their data is restricted from external access. 
+
+Models
+
+The best performing model I believe is Gradient Boost. Even though it did not have as high of an accuracy score as Random Forest, it had 50% higher accuracy score than the base model and MSE and RMSE for training and testing is very closer. Linear Regression, base model has the lowest accuracy score and it is slightly overfit. While Random Forest had the highest accuracy score, it was very overfit.
+
