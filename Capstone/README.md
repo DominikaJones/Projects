@@ -5,7 +5,7 @@ The purpose of this project is to use regression models to predict the average t
 Customer engagement is a measurement of a user's response to the product. By prediciting STEAM video games and user engagement with a predicitive model, I hope to improve user experience and customer engagement to contribute to the success of video games on STEAM. 
 
 ## Executive Summary
-[Executive Summary](..assets/Executive Summary.txt/)
+[Executive Summary](https://github.com/DominikaJones/BLM-Group-Project/blob/main/Group_Project/assets/Executive%20Summary.txt)
 
 ## The Data
 The data was collected from steamspy and steam store API.  
